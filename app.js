@@ -96,3 +96,29 @@ function soSanhSoDuongSoAm() {
     `;
   }
 }
+
+function timSoNguyenTo(n) {
+  var o = 1;
+  if (n < 2) {
+    return (o = 0);
+  }
+  let i = 2;
+  while (i < n) {
+    if (n % i == 0) {
+      o = 0;
+      break;
+    }
+    i++;
+  }
+  return o;
+}
+
+function timSoNguyenToDauTien() {
+  for (var i = 0; i < numberArr.length; i++) {
+    if (timSoNguyenTo(numberArr[i]) == true) {
+      document.getElementById("ketquaTxt").innerHTML = `
+      Số nguyên tố đầu tiên của mảng là: ${numberArr[i]}
+      `;
+    }
+  }
+}
