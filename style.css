@@ -1,0 +1,23 @@
+#numberTxt {
+  width: 30%;
+  display: inline-block;
+}
+body {
+  background-image: url(https://img5.goodfon.com/wallpaper/nbig/8/81/ogni-nochnogo-goroda-razmytost-noch-gorod.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  text-align: center;
+  margin-top: 149px;
+  background-color: transparent;
+}
+.form-group {
+  padding: 50px 0;
+  color: white;
+}
+.button--themso {
+  display: inline-block;
+}

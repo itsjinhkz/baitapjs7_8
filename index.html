@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài tập JS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- file css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <div class="container">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nhập số:</label>
+      <input class="form-control" id="numberTxt" />
+      <button class="btn btn-primary ml-2 button--themso" onclick="themSo()">
+        Thêm Số
+      </button>
+      <div class="mt-4">
+        <p id="arrayValue"></p>
+      </div>
+      <button class="btn btn-primary m-1" onclick="tinhTongSoDuong()">
+        Tính Tổng Số Dương
+      </button>
+      <button class="btn btn-primary m-1" onclick="demSoDuong()">
+        Đếm Số Dương
+      </button>
+      <button class="btn btn-primary m-1" onclick="timSoNhoNhat()">
+        Tìm Số Nhỏ Nhất
+      </button>
+      <button class="btn btn-primary m-1" onclick="timSoDuongNhoNhat()">
+        Tìm Số Dương Nhỏ Nhất
+      </button>
+      <button class="btn btn-primary m-1" onclick="timSoChanCuoiCung()">
+        Tìm Số Chẵn Cuối Cùng
+      </button>
+      <button class="btn btn-primary m-1" onclick="sapXepTheoThuTuTangDan()">
+        Sắp Xếp Theo Thứ Tự Tăng Dần
+      </button>
+      <button class="btn btn-primary m-1">Tìm Số Nguyên Tố Đầu Tiên</button>
+      <button class="btn btn-primary m-1" onclick="soSanhSoDuongSoAm()">
+        So Sánh Sô Lượng Số Dương và Số Lượng Số Âm
+      </button>
+      <div id="ketquaTxt" class="mt-2"></div>
+    </div>
+  </div>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
